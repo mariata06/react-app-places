@@ -75,6 +75,7 @@ img {
   border-top-right-radius: 10px;
   z-index: 0;
   position: relative;
+  object-fit: cover;
 }
 
 a {
@@ -122,6 +123,7 @@ p {
   border: none;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 20px;
 }
 
 .btn:hover {
@@ -151,4 +153,18 @@ p {
   padding: 30px 0;
   position: relative;
   z-index: 1;
+}
+
+.countries {
+  padding: 30px 0;
+}
+
+.btn-container  {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* justify-content: space-around; */
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0;
 }

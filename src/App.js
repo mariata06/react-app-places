@@ -1,14 +1,36 @@
 import React, {useState} from 'react';
 import Menu from './Menu';
 import Countries from './Countries';
+import Categories from './Categories';
 import items from './data';
+
+const allCategories = ['all',...new Set(items.map((item) => item.category))];
+const allCountries = ['all',...new Set(items.map((item) => item.country))];
+// console.log(allCategories);
+
 
 function App() {
   const [menuItems, setMenuItems] = useState(items);
-  const [countires, setCountries] = useState([]);
+  const [countries, setCountries] = useState(allCountries);
+  const [categories, setCategories] = useState(allCategories);
 
-  // console.log(Menu);
-  console.log(items);
+  const filterItems = (category) => {
+    if (category === 'all') {
+      setMenuItems(items);
+      return;
+    }
+    const newItems = items.filter((item) => item.category === category);
+    setMenuItems(newItems);
+  }
+
+  const filterCountry = (country) => {
+    if (country === 'all') {
+      setMenuItems(items);
+      return;
+    }
+    const newItems = items.filter((item) => item.country === country);
+    setMenuItems(newItems);
+  }
   
   return (
     <main className="App">
@@ -17,7 +39,8 @@ function App() {
           <h2>my places</h2>
           <div className='underline'></div>
         </div>
-        <Countries countires={countires}/>
+        <Countries countries={countries} filterCountry={filterCountry} />
+        <Categories categories={categories} filterItems={filterItems} />
         <Menu items={menuItems}/>
       </section>
     </main>

@@ -1,19 +1,19 @@
 import React from 'react'
 
-export const Countries = ({ countries, filterCountry }) => {
+export const Categories = ({ categories, filterItems }) => {
   return (
-    <div className='btn-container contries'>
+    <div className='btn-container categories'>
         {/* <button className='filter-btn btn' onClick={() => filterItems('beach')}>beach</button> */}
         {/* <button className='filter-btn btn' onClick={() => filterItems('all')}>all</button> */}
-        {countries.map((country, index) => {
+        {categories.map((category, index) => {
             return (
                 <button 
                     type="button"
                     className='filter-btn btn' 
                     key={index} 
-                    onClick={() => filterCountry(country)}
+                    onClick={() => filterItems(category)}
                 >
-                    {country}
+                    {category}
                 </button>
             );    
         })}
@@ -21,4 +21,4 @@ export const Countries = ({ countries, filterCountry }) => {
   );
 };
 
-export default Countries;
+export default Categories;
