@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Menu from './Menu';
+import Places from './Places';
 import Countries from './Countries';
 import Categories from './Categories';
 import items from './data';
@@ -10,26 +10,26 @@ const allCountries = ['all',...new Set(items.map((item) => item.country))];
 
 
 function App() {
-  const [menuItems, setMenuItems] = useState(items);
+  const [placeItems, setPlaceItems] = useState(items);
   const [countries, setCountries] = useState(allCountries);
   const [categories, setCategories] = useState(allCategories);
 
   const filterItems = (category) => {
     if (category === 'all') {
-      setMenuItems(items);
+      setPlaceItems(items);
       return;
     }
     const newItems = items.filter((item) => item.category === category);
-    setMenuItems(newItems);
+    setPlaceItems(newItems);
   }
 
   const filterCountry = (country) => {
     if (country === 'all') {
-      setMenuItems(items);
+      setPlaceItems(items);
       return;
     }
     const newItems = items.filter((item) => item.country === country);
-    setMenuItems(newItems);
+    setPlaceItems(newItems);
   }
   
   return (
@@ -41,7 +41,7 @@ function App() {
         </div>
         <Countries countries={countries} filterCountry={filterCountry} />
         <Categories categories={categories} filterItems={filterItems} />
-        <Menu items={menuItems}/>
+        <Places places={placeItems}/>
       </section>
     </main>
   );

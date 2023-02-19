@@ -1,4 +1,4 @@
-const menu = [
+const places = [
     {
         id: "jhnlkjhn",
         name: "Ellora and Ajanta caves",
@@ -44,7 +44,7 @@ const menu = [
         name: "Vagator beach",
         info: "At Vagator Beach, a curved stretch of sand overlooked by the Chapora Fort, you will find a lot of activities occurring simultaneously. Decent sized bars serve food & drinks, a cricket game in progress & vendors selling refreshing coconut water. The beach is dotted with a hillock on one side & headland on the other. Located in north Goa, it is situated at the end of the Sinquerim, Candolim, Calangute, Baga & Anjuna stretch, and is separated from Morjim by the Chapora River. The beach itself is divided into two parts, Big Vagator & Little Vagator. You should try & visit this beach during your holidays in Goa, not just because it promises you a lovely time, but also because it is “the most photographed beach in Goa”. Besides watching the sunset, you can also try out a variety of water sports.",
         image: "https://www.visittnt.com/images/goa/Vagator-Beach.jpg",
-        country: "India, Goa",
+        country: "India",
         category: "beach",
     },
     {
@@ -52,9 +52,9 @@ const menu = [
         name: "Anjuna flea market",
         info: "Anjuna Flea market is a hippie's paradise in Goa where you can find a treasure trove of souvenirs, handicrafts, hippie clothes, and trinkets at a drift cheap rate. This weekly market started in the 1960s as a way for the hippie travelers to barter their unique products. In the beginning, it was called the open-air goods exchange market by the locals, but now it has become a popular attraction for tourists and locals alike. Earlier, this flea market was organized on a small area of the beach, but now it extends from the golden shores of the beach to the paddy fields with plenty of stalls selling tidbits.",
         image: "https://i0.wp.com/goaprism.com/wp-content/uploads/2014/07/anjuna-flea-market.jpg",
-        country: "India, Goa",
+        country: "India",
         category: "relax",
     },
 ];
 
-export default menu;
+export default places;
