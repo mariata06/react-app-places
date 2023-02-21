@@ -1,4 +1,4 @@
-const places = [
+export const items = [
     {
         id: "jhnlkjhn",
         name: "Ellora and Ajanta caves",
@@ -57,4 +57,26 @@ const places = [
     },
 ];
 
-export default places;
+export const info = [
+    {
+        id: "khjkhk",
+        title: "India",
+        currency: "rupee",
+        cities: "Aurangabad, Delhi, Mumbai, Rishikesh, Haridwar, Agra, Varanasi, Sarnath",
+        desc: "India, officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar, and Indonesia.",
+    },
+    {
+        id: "fgdfgdf",
+        title: "Italy",
+        currency: "euro",
+        cities: "Milan, Bormio, Livigno",
+        desc: "Italy (officially the Italian Republic[a] or the Republic of Italy, is a country in Southern and Western Europe. Located in the middle of the Mediterranean Sea, it consists of a peninsula delimited by the Alps and surrounded by several islands; its territory largely coincides with the homonymous geographical region.[19] Italy shares land borders with France, Switzerland, Austria, Slovenia and the enclaved microstates of Vatican City and San Marino. It has a territorial exclave in Switzerland, Campione. Italy covers an area of 301,230 km2 (116,310 sq mi), with a population of about 60 million. It is the third-most populous member state of the European Union, the sixth-most populous country in Europe, and the tenth-largest country in the continent by land area. Italy's capital and largest city is Rome."
+    },
+    {
+        id: "fdgdfg",
+        title: "Hungary",
+        currency: "forint",
+        cities: "Budapest, Eger, Miskolc, Szentendre",
+        desc: "Hungary (is a landlocked country in Central Europe. Spanning 93,030 square kilometres (35,920 sq mi) of the Carpathian Basin, it is bordered by Slovakia to the north, Ukraine to the northeast, Romania to the east and southeast, Serbia to the south, Croatia and Slovenia to the southwest, and Austria to the west. Hungary has a population of 9.7 million, mostly ethnic Hungarians and a significant Romani minority. Hungarian, the official language, is the world's most widely spoken Uralic language and among the few non-Indo-European languages widely spoken in Europe. Budapest is the country's capital and largest city; other major urban areas include Debrecen, Szeged, Miskolc, Pécs, and Győr."
+    },
+];

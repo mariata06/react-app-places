@@ -46,9 +46,29 @@ section.places {
   grid-column-gap: 30px;
 }
 
-.places {
+.places, .tabs {
   width: 1170px;
   margin: 0 auto;
+}
+
+.tab {
+  display: flex;
+}
+
+.tab .btn-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: baseline; */
+  /* justify-content: baseline; */
+  max-width: unset;
+  /* padding: 0; */
+  justify-content: flex-start;
+  /* justify-content: space-around; */
+  min-width: 250px;
+}
+
+.tab .btn-container button {
+  margin-bottom: 20px;
 }
 
 .place-item {
@@ -128,7 +148,6 @@ p {
 
 .btn {
   text-transform: uppercase;
-  /* background: var(--color-primary); */
   background-color: rgb(228, 193, 128);
   color: var(--color-white);
   padding: 0.375rem 0.75rem;
@@ -146,23 +165,37 @@ p {
 
 .btn:hover {
   color: var(--color-primary);
-  /* background: var(--color-primary-light); */
-  /* background-color: rgb(224, 200, 155); */
   transition: color 0.7s ease;
 }
 
-.btn--country {
+.btn--country, .btn--tab {
   background: var(--color-primary);
   background: var(--color-primary-light);
 }
 
-.btn--country:hover {
+.btn--tab {
+  background-color: #fff;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn--tab.active-btn {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn--country:hover,
+.btn--tab:hover {
   opacity: 0.7;
   transition: opacity 0.7s ease;
 }
 
 .title h2 {
   text-align: center;
+}
+
+.country-info h3 {
+  text-transform: none;
 }
 
 .underline {

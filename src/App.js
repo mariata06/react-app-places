@@ -2,12 +2,11 @@ import React, {useState} from 'react';
 import Places from './Places';
 import Countries from './Countries';
 import Categories from './Categories';
-import items from './data';
+import Tabs from './Tabs';
+import { items } from './data';
 
-const allCategories = ['all',...new Set(items.map((item) => item.category))];
 const allCountries = ['all',...new Set(items.map((item) => item.country))];
-// console.log(allCategories);
-
+const allCategories = ['all',...new Set(items.map((item) => item.category))];
 
 function App() {
   const [placeItems, setPlaceItems] = useState(items);
@@ -42,6 +41,7 @@ function App() {
         <Countries countries={countries} filterCountry={filterCountry} />
         <Categories categories={categories} filterItems={filterItems} />
         <Places places={placeItems}/>
+        <Tabs />
       </section>
     </main>
   );
