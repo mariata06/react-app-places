@@ -1,17 +1,10 @@
-import React, {useEffect, useState} from 'react'
-// import { items } from './data';
+import React, {useState} from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const Slider = ({place_idx, places}) => {
-    const [ index, setIndex ] = useState(0); 
-    // const [ idx, setIdx ] = useState(place_idx);
-    // const { image, name } = items[place_idx];
+    const [ index, setIndex ] = useState(0);
     const { image, name } = places[place_idx];
-
-    // console.log(place_idx);
-    // console.log(items[0]);
-    // console.log(items[0].image[0]);
-
+    
     const checkNumber = (number) => {
         if (number > image.length - 1) {
             return 0;

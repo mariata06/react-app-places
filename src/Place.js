@@ -7,7 +7,6 @@ const Place = ({ place_idx, places }) => {
 
     return (
         <article className='place-item'>
-            {/* <img src={image} alt={name} className='photo' /> */}
             <Slider place_idx={place_idx} places={places}/>
             <div className='place-info'>
                 <header>

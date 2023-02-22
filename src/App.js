@@ -3,8 +3,8 @@ import Places from './Places';
 import Countries from './Countries';
 import Categories from './Categories';
 import Tabs from './Tabs';
-import { items } from './data';
-// import Slider from './Slider';
+import Accordion from './Accordion';
+import { items, resources } from './data';
 
 const allCountries = ['all',...new Set(items.map((item) => item.country))];
 const allCategories = ['all',...new Set(items.map((item) => item.category))];
@@ -43,6 +43,7 @@ function App() {
         <Categories categories={categories} filterItems={filterItems} />
         <Places places={placeItems}/>
         <Tabs />
+        <Accordion resources={resources}/>
       </section>
     </main>
   );

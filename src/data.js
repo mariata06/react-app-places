@@ -102,3 +102,31 @@ export const info = [
         desc: "Vietnam officially the Socialist Republic of Vietnam, is a country in Southeast Asia. It is located at the eastern edge of mainland Southeast Asia, with an area of 311,699 square kilometres (120,348 sq mi) and population of 96 million, making it the world's sixteenth-most populous country. Vietnam borders China to the north, and Laos and Cambodia to the west. It shares maritime borders with Thailand through the Gulf of Thailand, and the Philippines, Indonesia, and Malaysia through the South China Sea. Its capital is Hanoi and its largest city is Ho Chi Minh City (commonly referred to by its former name, Saigon)."
     },
 ];
+
+export const resources = [
+    {
+        name: "booking",
+        link: "https://www.booking.com/",
+        desc: "Founded in 1996 in Amsterdam, Booking.com has grown from a small Dutch start-up to one of the world’s leading digital travel companies. Part of Booking Holdings Inc. (NASDAQ: BKNG), Booking.com’s mission is to make it easier for everyone to experience the world. By investing in technology that takes the friction out of travel, Booking.com seamlessly connects millions of travelers to memorable experiences, a variety of transportation options, and incredible places to stay – from homes to hotels, and much more. As one of the world’s largest travel marketplaces for both established brands and entrepreneurs of all sizes, Booking.com enables properties around the world to reach a global audience and grow their businesses. Booking.com is available in 43 languages and offers more than 28 million reported accommodation listings, including over 6.6 million homes, apartments, and other unique places to stay. Wherever you want to go and whatever you want to do, Booking.com makes it easy and supports you with 24/7 customer support.",
+    },
+    {
+        name: "airbnb",
+        link: "https://www.airbnb.com/",
+        desc: "is an American San Francisco-based company operating an online marketplace for short-term homestays and experiences. The company acts as a broker and charges a commission from each booking. The company was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia. Airbnb is a shortened version of its original name, AirBedandBreakfast.com. The company has been the subject of criticism for lack of regulations and enabling increases in home rents.",
+    },
+    {
+        name: "numbeo",
+        link: "https://www.numbeo.com/cost-of-living/",
+        desc: "Numbeo is the world’s largest cost of living database. Numbeo is also a crowd-sourced global database of quality of life data: housing indicators, perceived crime rates, healthcare quality, transport quality, and other statistics. <br> Numbeo provides a tool to see, share and compare information about cost of living worldwide, by providing online software which: <br> - enables a reader of a website to see current prices <br> - uses wisdom of the crowd to get as reliable data as possible <br> - provides a system for systematic research on cost of living and property markets <br> - calculates derived indices such as cost of living index, local purchasing power, etc. <br> - provides a system for other systematic economical research on huge dataset with worldwide data <br> If you find something helpful or if you like the website, take a little time to help someone else, by contributing your local cost knowledge.",
+    },
+    {
+        name: "glassdoor",
+        link: "https://www.glassdoor.com/index.htm",
+        desc: "So, what is Glassdoor? We’re a thriving community for workplace conversations, driven by a simple mission: helping people everywhere find jobs and companies they love. <br> But the way we do it? That’s not so simple. <br> Every day, we’re inspired by a vision to make positive workplace change through radical transparency. Through the products we make and the communities we create, we’re breaking down barriers that lead to discrimination, pay gaps, and toxic work environments. Together, we’re fostering a world where people have the support and resources they need to find a job that loves them back.",
+    },
+    {
+        name: "worldwideinsure",
+        link: "https://www.worldwideinsure.com/",
+        desc: "Established in 1993, Worldwide Travel Insurance has over two decades of experience in the Travel Insurance industry, making us one of the UK’s most experienced and trusted Travel Insurance providers. Whether your trip is for business or pleasure, we have a comprehensive range of affordable products to meet your needs. Alongside our Single-trip, Annual, Longstay and Wintersports Travel Insurance policies, we offer Excess Insurance for Car, Motorhome or Van Hire. As part of our range of specialist travel insurance products, we can even cover you if you have already started your trip, unlike the majority of travel cover providers. In addition to policies for UK residents, we can cover you wherever you live in the world.",
+    },
+];
