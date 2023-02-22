@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Countries = ({ countries, filterCountry }) => {
   return (
-    <div className='btn-container contries'>
+    <div className='btn-container countries'>
         {countries.map((country, index) => {
             return (
                 <button 

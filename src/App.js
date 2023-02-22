@@ -4,6 +4,7 @@ import Countries from './Countries';
 import Categories from './Categories';
 import Tabs from './Tabs';
 import { items } from './data';
+// import Slider from './Slider';
 
 const allCountries = ['all',...new Set(items.map((item) => item.country))];
 const allCategories = ['all',...new Set(items.map((item) => item.category))];
@@ -30,7 +31,7 @@ function App() {
     const newItems = items.filter((item) => item.country === country);
     setPlaceItems(newItems);
   }
-  
+
   return (
     <main className="App">
       <section className='section'>

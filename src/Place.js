@@ -1,11 +1,13 @@
 import React, { useState} from 'react';
+import Slider from './Slider';
 
-const Place = ({ id, name, image, info }) => {
+const Place = ({ name, place_idx, info, places }) => {
     const [readMore, setReadMore] = useState(false);
 
     return (
         <article className='place-item'>
-            <img src={image} alt={name} className='photo' />
+            {/* <img src={image} alt={name} className='photo' /> */}
+            <Slider place_idx={place_idx} places={places}/>
             <div className='place-info'>
                 <header>
                     <h4>{name}</h4>
