@@ -8,10 +8,6 @@ const Slider = ({place_idx, places}) => {
     // const { image, name } = items[place_idx];
     const { image, name } = places[place_idx];
 
-    // useEffect(() => {
-    //     setIdx()
-    // },[place_idx]);
-
     // console.log(place_idx);
     // console.log(items[0]);
     // console.log(items[0].image[0]);

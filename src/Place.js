@@ -1,7 +1,8 @@
 import React, { useState} from 'react';
 import Slider from './Slider';
 
-const Place = ({ name, place_idx, info, places }) => {
+const Place = ({ place_idx, places }) => {
+    const {name, info} = places[place_idx];
     const [readMore, setReadMore] = useState(false);
 
     return (
