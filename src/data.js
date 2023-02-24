@@ -1,3 +1,5 @@
+import { FaGithub, FaFacebook, FaLinkedin, FaTwitter, FaBehance } from 'react-icons/fa';
+
 export const items = [
     {
         id: "jhnlkjhn",
@@ -129,4 +131,115 @@ export const resources = [
         link: "https://www.worldwideinsure.com/",
         desc: "Established in 1993, Worldwide Travel Insurance has over two decades of experience in the Travel Insurance industry, making us one of the UK’s most experienced and trusted Travel Insurance providers. Whether your trip is for business or pleasure, we have a comprehensive range of affordable products to meet your needs. Alongside our Single-trip, Annual, Longstay and Wintersports Travel Insurance policies, we offer Excess Insurance for Car, Motorhome or Van Hire. As part of our range of specialist travel insurance products, we can even cover you if you have already started your trip, unlike the majority of travel cover providers. In addition to policies for UK residents, we can cover you wherever you live in the world.",
     },
+    {
+        name: "international living",
+        link: "https://internationalliving.com/",
+        desc: "International Living magazine is a monthly publication for subscribers detailing the best places in the world to live, retire, travel, and invest. Founded in 1979 by Bill Bonner, IL now has offices and writers located all over the world. <br> International Living also offers daily insights into hotspots around the globe in our free e-letter, IL Postcards. Read about the destinations you want to know more about…and some you may not have heard of yet. <br> And that’s just the beginning…IL offers conferences and events, real estate services, local contacts in some of the world’s most popular destinations, advice from people just like you who have already done what you’ve only dreamed about, an online bookstore of special reports and essential guides, other subscriptions and valuable VIP services…in short, everything you need to know to start your new life abroad.",
+    },
+    {
+        name: "travel safe - abroad",
+        link: "https://www.travelsafe-abroad.com/",
+        desc: "We are a team of full-time travelers with a mutual goal – travel as much as possible! <br> In order to fund this goal we teamed up to create this site and share safety tips, recommended travel gear, give back to the community, and just have fun! <br> We welcome you to join us and hope you find this information helpful. <br> If you have any question, concern, feedback to give, or anything else, don’t hesitate to contact us through our email address: team@travelsafe-abroad.com <br> Good luck on your journeys!",
+    },
+    {
+        name: "HikersBay",
+        link: "http://hikersbay.com/?lang=en",
+        desc: "More than 20 millions people use HikersBay products to organize travel of their life. HikersBay started as a hobby project in 2010 when we were first time on Gran Canaria. Since then the main question was - how to stop spending Too Much Time on searching best travel offer? <br> On travel websites you can always find three offers Last Minute, Normal and Early Bookings. But which of them is the cheapest? Is it true that last minute is always the most cost-effective? We know that this is not true! <br> Our system every day ask hundreds of travel operator about the prices and shows trends on travel market. It's not a another comparator - it's completly different site. With us you can plan your journey better.",
+    },
+    {
+        name: "housing anywhere",
+        link: "https://housinganywhere.com/",
+        desc: "Renting a home should be as easy and carefree as booking a hotel room. That's why we're here: to simplify accommodation renting for everyone. Whether it's to book a place online or pay rental fees after moving in, people all over the world use HousingAnywhere to improve their renting experience. <br> One of us found it difficult to rent a room abroad while subletting their room at home. So we built HousingAnywhere.com as a student-to-student messaging forum. <br> Expanded to other European countries, including Spain, France, Germany, and Denmark. <br> Introduced an online booking system and expanded globally by collaborating with universities in Brazil, Mexico, U.S.A. <br> Awarded the 4th most innovative company in The Netherlands and the 1st most in Rotterdam. We’re the fastest-growing PropTech company in The Netherlands 4 years in a row. <br> Today, over 7 million people search for a home on HousingAnywhere.com every year. We partner with 300+ international universities. Our tech powers the rentals management system for 1000s of property managers.",
+    },
+    {
+        name: "InterNations",
+        link: "https://www.internations.org/",
+        desc: "Imagine you are moving to a foreign country… <br> You need so much information, you have so many questions – but you’re not sure who to ask. You need to find somewhere to live, open a bank account, set up your internet connection – but you’re still getting used to the local language and culture. And most of all, you want to meet others who understand your situation, who share your interests and hobbies – other global minds, new friends. <br> What if you could find everything you need in one place? <br> A place where international people like you meet, connect, and exchange information. A welcoming community of open-minded individuals who share your experiences. A secure space full of useful advice from fellow expats and knowledgeable locals. A world of opportunities to network and find friends who will explore your new surroundings with you - wherever you are in the world. You’ve just found that place. Welcome abroad, welcome to InterNations! <br> InterNations helps you feel at home around the world. <br> From the moment you decide to move abroad until you’ve settled in and beyond – we want to make sure that you can enjoy your expat experience to the fullest! Wherever in the world life takes you, our InterNations Communities help you feel at home.",
+    },
+    {
+        name: "budget your trip",
+        link: "https://www.budgetyourtrip.com/",
+        desc: "Budget Your Trip helps travelers plan and track their travel budgets. Over the last decade, we have gathered travel costs from tens of thousands of travelers who have ventured to every corner of the globe. The result is this website, a huge repository of typical travel prices for thousands of destinations, along with travel tips and advice for new and experienced travelers alike. <br> Our destination search allows travelers to learn more about the travel prices for places they are planning to visit, currently visiting, or just dreaming about. Our overall goal is to make travel more accessible for everyone by showing that many destinations do not have to be as expensive as many people believe. <br> Travelers who are planning a future trip can register and create a travel budget to plan their future expenses based on the average costs of their destinations or their own established costs. Then, once their trip begins, travelers can enter their expenses, thus contributing to the repository of travel costs. In many ways, it’s like a Wiki for travel costs. <br> All of the travel expenses which have been entered by travelers are then anonymously aggregated, averaged, and run through various statistical models to determine the average daily travel prices for countries and cities around the world. For more details about how it works, click here. Or, read more about how the numbers are calculated here. And here are our Frequently Asked Questions. <br> Additionally, we also provide travel tips, accommodation options, tour reviews, and other helpful budget travel information.",
+    },
+    {
+        name: "the culture trip",
+        link: "https://theculturetrip.com/",
+        desc: "The essential travel companion to discover and book TRIPS by Culture Trip, as well as spot-on stays and experiences - curated and hand-picked by a global community of travel experts and local insiders. <br> Culture Trip is your trusted shortcut to booking travel that’s good, and makes you feel good. Because everything we do starts with you. In one single platform, you can get inspired, and discover and book spot-on stays and experiences, and now also TRIPS by Culture Trip. <br> TRIPS by Culture Trip - that’s small-group adventures, curated by travel experts and led by Local Insiders. The multi-day trips offer exciting itineraries combining immersive activities and unique places to stay. The mission is to let people experience extraordinary places in unexpected ways, together with other culturally curious travelers. <br> In 2011, Culture Trip was created to inspire people to go beyond their culture boundaries and experience what makes a place, its people and its culture special, unique and meaningful. Fast-forward to today, and Culture Trip has evolved from a travel content publisher into a travel ecommerce brand with content at its core. For over a decade now, Culture Trip’s global community of travel experts and local insiders have hand-picked the world’s best bits to share unique stories and unbiased recommendations, together with carefully curated collections of places to stay, hotels, rentals, things to do and experiences that can be booked online as well as our very own TRIPS by Culture Trip. <br> Culture Trip inspires people and enables them to turn this inspiration directly into reality by booking what they read about - in one single platform we take them from inspiration and planning to booking. <br> And because we know that booking travel with confidence is more important now than ever, we are committed to making it hassle-free for you. <br> Travel with Culture Trip and we will help you get it right, before and during every precious trip.",
+    },
+    {
+        name: "Rome2Rio",
+        link: "https://www.rome2rio.com/",
+        desc: "Rome2rio makes travel planning easy. We are a door-to-door travel information and booking engine, helping you get to and from any location in the world safely. <br> Enter any address, landmark, or city as your destination and we will instantly display all your travel and booking options, along with information about accommodation and things to do, in one convenient spot. <br> Whether you’re after flight, train, bus, ferry, rideshare or rental car info, we’ve got estimated prices, journey durations and booking details from over 5000 companies in more than 160 countries – making us one of the top online travel resources used globally. <br> Download our app, so you can plan your journey while you are on the road, wherever you are.",
+    },
+    {
+        name: "cost of living",
+        link: "https://costoflive.com/",
+        desc: "Costof.live developed in order to see the cost of living data in a more meaningful way and to contribute easily by two passionate makers. While examining many sources in the development process, we tried to decide which of the data we obtained was more important. <br> The two biggest problems we had while researching the cost of living data in line with our own needs were; to continue to look at the pages with all these data and to ensure the accuracy of the figures. <br> After we realized the results, decided to make a fresh cost of living website which has community-powered insights.",
+    },
+    {
+        name: "HyperDia",
+        link: "https://www.hyperdia.com/",
+        desc: "HyperDia is a service which offers the route of the railway and the aviation of Japan. <br> With simple operation, HyperDia guides the optimal route and the fare from starting point to end. <br> The route search engine is made by self-developed technology. <br> By applying this route search engine, it is possible to make link to regional information, for example, map information, a rental car and hotels etc around the station from the search result. <br> So, it is possible to offer the information which is possessed with your corporation sight effectively.",
+    },
 ];
+
+export const links = [
+    {
+        id: 1,
+        url: '/',
+        text: 'home',
+    },
+    {
+        id: 2,
+        url: '/places',
+        text: 'places',
+    },
+    {
+        id: 3,
+        url: '/info',
+        text: 'info',
+    },
+    {
+        id: 4,
+        url: '/resources',
+        text: 'resources',
+    },
+    {
+        id: 5,
+        url: '/checklist',
+        text: 'checklist',
+    },
+    {
+        id: 6,
+        url: '/login',
+        text: 'login',
+    },
+]
+
+export const social = [
+    {
+        id: 1,
+        url: 'https://www.github.com',
+        icon: <FaGithub />,
+    },
+    {
+        id: 2,
+        url: 'https://www.facebook.com',
+        icon: <FaFacebook />,
+    },
+    {
+        id: 3,
+        url: 'https://www.twitter.com',
+        icon: <FaTwitter />,
+    },
+    {
+        id: 4,
+        url: 'https://www.linkedin.com',
+        icon: <FaLinkedin />,
+    },
+    {
+        id: 5,
+        url: 'https://www.behance.com',
+        icon: <FaBehance />,
+    },
+]

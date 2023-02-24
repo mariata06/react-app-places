@@ -7,7 +7,7 @@ export const Categories = ({ categories, filterItems }) => {
                 return (
                     <button 
                         type="button"
-                        className='filter-btn btn' 
+                        className='filter-btn btn btn--category' 
                         key={index} 
                         onClick={() => filterItems(category)}
                     >
