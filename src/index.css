@@ -46,9 +46,40 @@ section.places {
   grid-column-gap: 30px;
 }
 
-.places, .tabs, .accordion {
+.places, .tabs, .accordion, .checklist {
   width: 1170px;
   margin: 0 auto;
+}
+
+.checklist {
+  text-align: center;
+  background-color: #fff;
+  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.checklist-form {
+  height: 100px;
+}
+
+.checklist h3 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.form {
+  padding: 0 400px;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.checklist-container {
+  margin-top: 20px;
 }
 
 .tabs {
@@ -207,6 +238,90 @@ p {
   border-radius: 5px;
 }
 
+.form-control {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  /* margin-bottom: 50px; */
+}
+
+input {
+  width: 300px;
+  height: 26px;
+  padding: 0;
+  border-radius: 5px;
+  border: 1px solid var(--color-primary-light);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 20px;
+  outline: none;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn svg {
+  color: green;
+}
+
+.checklist-item {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 20px;
+  transition: background-color 0.7s ease;
+}
+
+.checklist-item:hover {
+  background-color: var(--color-grey-10);
+}
+
+.clear-button {
+  margin-top: 20px;
+}
+
+.checklist-item .title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.checklist-item .btn-container {
+  margin: 0;
+  padding: 0;
+}
+
+.delete-btn svg {
+  color: var(--color-red-dark);
+}
+
+input:focus {
+  border: 1px solid var(--color-primary);
+}
+
+/* input::placeholder {
+  padding: 0 20px;
+} */
+
+.submit-btn {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  margin-left: 0;
+  margin: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 .btn:hover {
   color: var(--color-primary);
   transition: color 0.7s ease;
@@ -247,7 +362,7 @@ p {
   font-size: 0.875rem;
 }
 
-.btn--country, .btn--tab {
+.btn--country, .btn--tab, .btn--checklist {
   background: var(--color-primary-light);
 }
 
@@ -255,6 +370,17 @@ p {
   background-color: #fff;
   border: 1px solid var(--color-primary-light);
   color: var(--color-primary);
+}
+
+.btn--clear {
+  /* border: 1px solid var(--color-primary-light); */
+  /* border: 1px solid var(--color-red-dark); */
+  /* color: var(--color-red-dark); */
+  /* color: var(--color-primary); */
+  /* border: 1px solid var(--color-red-light); */
+  color: var(--color-red-light);
+  text-transform: lowercase;
+  background-color: #fff;
 }
 
 .btn--tab.active-btn {
@@ -291,7 +417,7 @@ p {
 
 .place-info {
   background-color: var(--color-grey-10);
-  padding: 30px 0;
+  padding: 20px 0;
   position: relative;
   z-index: 1;
 }

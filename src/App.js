@@ -7,6 +7,7 @@ import Accordion from './Accordion';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Home from './Home';
+import Checklist from './Checklist';
 // import { resources } from './data';
 // import { useLocation } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -20,9 +21,10 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/Info" element={<Tabs />} />
-            <Route  path="/Resources" element={<Accordion />} />
+            <Route path="/Resources" element={<Accordion />} />
             {/* <Route  path="/Checklist" element={<Checklist />} />
             <Route  path="/Login" element={<Login />} />    */}
+            <Route path="/Checklist" element={<Checklist />} />
           </Routes>
           <Footer />
         </section>
