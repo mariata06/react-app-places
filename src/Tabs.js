@@ -7,12 +7,12 @@ const Tabs = () => {
     const { id, title, currency, cities, desc } = tabs[value];
 
     return (
-        <section className='section tabs content'>
+        <section className='section tabs container content'>
             <div className='title'>
                 <h2>Countries Info</h2>
                 <div className='underline'></div>
             </div>
-            <div className='tabs-center'>
+            <div className='tabs-container'>
                 <div className='tab' key={id}>
                     {/* btn container */}
                     <div className='btn-container'>

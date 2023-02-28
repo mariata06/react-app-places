@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <section className='section nav'>
+    <section className='section nav container'>
       <div className='nav-header'>
         <div className='logo'>
           <Link to="/">
@@ -26,14 +26,14 @@ const Navbar = () => {
             <Link to="/Checklist">
               Checklist
             </Link>
-            <Link to="/Login">
+            {/* <Link to="/Login">
               Login
-            </Link>
+            </Link> */}
           </div>
         </div>
-        <button type="button" className='nav-toggle'>
+        {/* <button type="button" className='nav-toggle'>
           <FaBars />
-        </button>
+        </button> */}
       </div>
     </section>
   )

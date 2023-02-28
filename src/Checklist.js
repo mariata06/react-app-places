@@ -18,8 +18,6 @@ const Checklist = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // console.log('hello')
-        // console.log("\""+name+"\"" + isEditing)
         if (name === '' || isEditing) {
             setList(list.map((item) => {
                 if(item.id === editID) {
@@ -60,7 +58,7 @@ const Checklist = () => {
     }, [list])
 
     return (
-        <section className='section form center content'>
+        <section className='section form container content'>
             <div className='checklist'>
                 <form className='checklist-form' action="" onSubmit={handleSubmit}>
                     <h3>Checklist</h3>

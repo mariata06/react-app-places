@@ -1,10 +1,9 @@
 import React from 'react';
 import { FaGithub, FaFacebook, FaLinkedin, FaTwitter, FaBehance } from 'react-icons/fa';
-// import { social } from './data';
 
 const Footer = () => {
     return (
-        <section className='social'>
+        <section className='section social container'>
             <ul className='social-icons'>
             <li>
               <a href="https://www.github.com" target="_blank" rel="noreferrer"><FaGithub /></a>

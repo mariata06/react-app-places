@@ -5,7 +5,7 @@ import Resource from './Resource';
 const Accordion = () => {
     const [resourceItems, setResourceItems] = useState(resources);
     return (
-        <section className='section accordion content'>
+        <section className='section accordion container content'>
             <div className='title'>
                 <h2>Useful resources</h2>
                 <div className='underline'></div>

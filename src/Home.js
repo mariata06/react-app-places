@@ -32,7 +32,7 @@ const Home = () => {
     }
 
     return (
-        <section className='section home'>
+        <section className='section home container'>
             <div className='title'>
                 <h2>my places</h2>
                 <div className='underline'></div>
@@ -45,5 +45,3 @@ const Home = () => {
 };
 
 export default Home;
-
-

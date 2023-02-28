@@ -3,7 +3,7 @@ import Place from './Place';
 
 const Places = ({ places }) => {
     return (
-        <section className='section places center content'>
+        <section className='section places content'>
             {places.map((place, i) => {
                 return <Place key={place.id} place_idx={i} places={places}></Place>;
             })}

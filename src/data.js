@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaGithub, FaFacebook, FaLinkedin, FaTwitter, FaBehance } from 'react-icons/fa';
 
 export const items = [
