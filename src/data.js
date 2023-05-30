@@ -66,6 +66,38 @@ export const items = [
         country: "India",
         category: "antiquities",
     },
+    {
+        id: "fgdhdffj",
+        name: "Harpers Ferry",
+        info: "Harpers Ferry is a historic town in Jefferson County, West Virginia, United States, in the lower Shenandoah Valley. The population was 285 at the 2020 census. Situated at the confluence of the Potomac and Shenandoah rivers, where the U.S. states of Maryland, Virginia, and West Virginia meet, it is the easternmost town in West Virginia. During the American Civil War, it was the northernmost point of Confederate-controlled territory. An 1890 history book on the town called it 'the best strategic point in the whole South.'",
+        image: ["https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTDONbsiPyrbHRzf_253YDXL33RZwOdebZhpgnl9qydhGHOlrX6YPA1nz8wvnvTeq1lgDOhi1MJqtBZ58R5tJvE0yJDsg", "https://lh5.googleusercontent.com/p/AF1QipO5Q_GI9RIfsKXP2slbX8IVc6dLB0QRW13nbPN3=w548-h318-n-k-no", "https://lh5.googleusercontent.com/p/AF1QipOSt5eB9af3ZnYbeHylR7J_n8631vsSvZU0-B5U=w548-h318-n-k-no"],
+        country: "USA",
+        category: "nature",
+    },
+    {
+        id: "fgdjghfj",
+        name: "Pré-Saint-Didier",
+        info: "QC Terme Pré Saint Didier In the heart of the Aosta Valley and just a few minutes from the QC Terme Monte Bianco wellness centre and resort, lies the QC Terme Pré Saint Didier centre: invigorating waterfalls, whirlpools with thermal water, saunas and relaxation rooms. Outdoor panoramic pools make the majestic panorama of Mont Blanc even more impressive.",
+        image: ["https://www.lovevda.it/immagini/DisplayImage/531?width=397&height=292", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_RsIDbqhjaNwIr7AI03s9QQLzAPbT64RSW7En2Cf4QQsNfqFQGC7j7A1k6yUAQOMfYg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjaePxe7tpxMOF2hqzpLooRZf8RWRU9pOJDOeDuACl1ZD26emW2I-nRjsWLr_z9u9Exg&usqp=CAU"],
+        country: "Italy",
+        category: "baths",
+    },
+    {
+        id: "fghgfdfj",
+        name: "Bagni San Filippo",
+        info: "Bagni San Filippo is an area in the municipality of Castiglione d'Orcia in the Province of Siena, Italy, not far from Monte Amiata. It is a small hot spring containing calcium carbonate deposits, which form white concretions and waterfalls. The name derives from that of St Philip Benizi, who was a prior of the Servite order, and who lived as a hermit here in the thirteenth century. The grotto is open to visitors.",
+        image: ["https://lh3.googleusercontent.com/p/AF1QipNosBZ_hjo6oTcJmuh1MLoHGL-C5Hyf1Ba13aOy=s680-w680-h510", "https://lh3.googleusercontent.com/p/AF1QipP1B1BhSv7DLZM1x3b49ZH6Qn8vG6ReV_asxMqo=s680-w680-h510", "https://lh3.googleusercontent.com/p/AF1QipNkEvOsYlbefCd0syIEeOI2S0_T04hlRE0gtcdP=s680-w680-h510"],
+        country: "Italy",
+        category: "baths",
+    },
+    {
+        id: "ffdyhdrt",
+        name: "Terme di Saturnia",
+        info: "According to the myth, Terme di Saturnia was formed by lightening bolts thrown by Jupiter at Saturn that missed. Situated in Tuscany, Italy, it's one of the country's best know natural spa spots. Fed by a volcanic spring, the pool's temperature is like a hot bath at an average of 37.5°C. Who wouldn't want to visit this natural phenomenon.",
+        image: ["https://i.pinimg.com/736x/16/78/49/167849a9af1f3d3f5cafafad384a24de.jpg", "https://www.bella-toscana.com/wp-content/uploads/2020/11/saturnia-hot-springs.jpg", "https://www.yeoldebell-hotel.co.uk/uploads/Blog/20200127143907.jpeg"],
+        country: "Italy",
+        category: "baths",
+    },
 ];
 
 export const info = [
